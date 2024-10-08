@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useUserContext } from "@/utils/contexts";
-import Button from "@/components/Button";
+import Button from "../../../components/Button";
 
 const recipesByCategory = ({ params }: { params: { category: string } }) => {
   const { category } = params;

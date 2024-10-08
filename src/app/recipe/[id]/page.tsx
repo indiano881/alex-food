@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { RecipeType, UserContextType } from "@/utils/types";
 import { recipeFetcher } from "@/utils/functions";
 import { useUserContext } from "@/utils/contexts";
-import Button from "@/components/Button";
+import Button from "../../../components/Button"
 import Image from "next/image";
 
 const recipePage = ({ params }: { params: { id: string } }) => {
