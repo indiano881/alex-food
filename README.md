@@ -1,0 +1,4 @@
+The Food Booth is a recipe generator app created with the purpose of practicing Reacts useContext hook, dynamic routing and API data fetching. 
+The idea of the app is to display a landing page where a user can login (users are hard coded in a database, only user name is required to log in).
+If the user doesn't log in they can only view the Guest Home Page which generates one random recipe. 
+If the user logs in they are presented with a few randomly generated recipes on the home page, they can access more recipes throgh the categories, see the full recipe and description when they click on a recipe. The user can also save their favourite recipes and access them from their profile page. 
