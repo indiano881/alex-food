@@ -1,11 +1,12 @@
 "use client";
 
-import Button from "../../components/Button"
+
 import { useUserContext } from "@/utils/contexts";
 import { recipeFetcher } from "@/utils/functions";
 import { UserContextType } from "@/utils/types";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Button from "@/components/Button";
 
 const profile = () => {
   const { user, savedRecipes, removeRecipe } =

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
+import Header from "../components/Header";
 import { UserProvider } from "@/utils/contexts";
-import LogInWrapper from "@/components/LogInWrapper";
+import LogInWrapper from "../components/LogInWrapper";
 
 export const metadata: Metadata = {
   title: "The Food Booth",
