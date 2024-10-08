@@ -8,7 +8,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Button from "@/components/Button";
 
-
 export default function Home() {
   const { user } = useUserContext() as UserContextType;
   const [recipes, setRecipes] = useState<RecipeType[] | null>(null);
@@ -31,7 +30,7 @@ export default function Home() {
 
   const handleClick = () => {
     fetchRecipes();
-  }
+  };
 
   useEffect(() => {
     fetchRecipes();
@@ -68,7 +67,9 @@ export default function Home() {
                 </div>
               ))}
           </div>
-          <div className="w-fit"><Button onClick={handleClick} buttonText="Regenerate"/></div>
+          <div className="w-fit">
+            <Button onClick={handleClick} buttonText="Regenerate" />
+          </div>
         </div>
       )}
     </>
