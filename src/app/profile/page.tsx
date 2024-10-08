@@ -1,6 +1,6 @@
 "use client";
 
-import Button from "@/Components/Button";
+import Button from "@/components/Button";
 import { useUserContext } from "@/utils/contexts";
 import { recipeFetcher } from "@/utils/functions";
 import { UserContextType } from "@/utils/types";

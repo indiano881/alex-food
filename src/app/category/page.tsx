@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const category = () => {
   const [categories, setCategories] = useState<CategoryType[]>([]);
-  const [categoryChoice, setCategoryChoice] = useState<CategoryType | null>(null);
+  
 
   const fetchRecipes = async () => {
     const data = await recipeFetcher({ action:`categories.php` })
